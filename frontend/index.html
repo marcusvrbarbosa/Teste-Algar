@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <title> Teste Algar </title>
+
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Teste de programação Algar Tech.">
+  <meta name="keywords" content="Teste, programação, Algar">
+  <meta name="author" content="Marcus Vinicius Rodrigues Barbosa (https://www.linkedin.com/in/marcusvrbarbosa)">
+
+  <!-- ICONS -->
+  <link rel="shortcut icon" type="image/x-icon"
+    href="https://algartech.com/wp-content/themes/algartech/images/logo-algar-tech-azul-slogan.svg">
+  <link rel="apple-touch-icon" sizes="76x76"
+    href="https://algartech.com/wp-content/themes/algartech/images/logo-algar-tech-azul-slogan.svg">
+  <link rel="icon" href="https://algartech.com/wp-content/themes/algartech/images/logo-algar-tech-azul-slogan.svg">
+
+  <!-- JQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+  <div id="loading_container" class="loading">
+    <div class="col-12">
+      <img class="loading-preloader" src="https://cdn.dribbble.com/users/2224455/screenshots/4428927/loading.gif">
+    </div>
+  </div>
+
+  <div id="form_container" class="container hidden">
+    <div class="row centered">
+      <img class="logo" src="https://algartech.com/wp-content/themes/algartech/images/logo-algar-tech-azul-slogan.svg">
+    </div>
+
+    <div class="row centered">
+      <div class="col-12">
+        <span class="login-title">
+          <h3> Teste de Programação </h3>
+        </span>
+      </div>
+    </div>
+
+    <div class="row centered">
+      <div class="form-group col-5">
+        <label class="input-title" for="product"> Produto </label>
+        <select id="product" class="form-control">
+          <!-- Will be filled by backend -->
+        </select>
+      </div>
+    </div>
+
+    <div class="row centered">
+      <div class="col-5">
+        <label class="input-title" for="phrase"> Frase </label>
+        <input id="phrase" type="text" class="form-control" placeholder="Digite uma frase ...">
+      </div>
+    </div><br>
+
+    <div class="row centered">
+      <div id="fetch_container" class="col-3">
+        <input id="fetch" type="button" class="btn-primary" value="Buscar" />
+      </div>
+
+      <div id="preloader_container" class="col-3 hidden">
+        <img class="preloader" src="https://cdn.dribbble.com/users/2224455/screenshots/4428927/loading.gif">
+      </div>
+    </div><br>
+
+    <div class="row centered display-row wrap">
+      <div id="results_target" class="col-8">
+      </div>
+    </div>
+  </div>
+
+  <script type="text/javascript" src="./script.js"></script>
+</body>
+
+</html>

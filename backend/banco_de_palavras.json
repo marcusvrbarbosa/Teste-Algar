@@ -1,0 +1,48 @@
+{
+  "geladeira": [
+    {
+      "resposta": "Verifique se sua geladeira está conectada na tomada e se o termostato está na temperatura certa.",
+      "sinonimos": [
+        "não gela",
+        "não resfria"
+      ]
+    },
+    {
+      "resposta": "Barulhos são normais quando o produto está em funcionamento",
+      "sinonimos": [
+        "fazendo barulho",
+        "som alto"
+      ]
+    }
+  ],
+  "computador": [
+    {
+      "resposta": "Verifique se seu computador está conectado na tomada e se o cooler está funcionando.",
+      "sinonimos": [
+        "não liga",
+        "não resfria"
+      ]
+    },
+    {
+      "resposta": "Barulhos são normais quando o produto está em funcionamento.",
+      "sinonimos": [
+        "fazendo barulho",
+        "som alto"
+      ]
+    }
+  ],
+  "celular": [
+    {
+      "resposta": "Verifique se a bateria possui carga.",
+      "sinonimos": [
+        "não liga"
+      ]
+    },
+    {
+      "resposta": "Verifique se você possui créditos e se o chip não está fora de área.",
+      "sinonimos": [
+        "não faz chamada"
+      ]
+    }
+  ]
+}
